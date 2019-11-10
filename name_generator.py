@@ -41,4 +41,4 @@ def open_file(file):
 
 def metal_gear_solid_name_generator(animals, adjectives):
     print("making an mgs name")
-    return f"{random.choice(adjectives).capitalize()} {random.choice(adjectives).capitalize()}"
+    return f"{random.choice(adjectives).capitalize()} {random.choice(animals).capitalize()}"
