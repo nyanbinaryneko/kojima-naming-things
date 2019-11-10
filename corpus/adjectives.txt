@@ -7241,6 +7241,7 @@ discourteous
 discoverable
 discovered
 discovert
+disco
 discreditable
 discredited
 discreet
@@ -28477,3 +28478,4 @@ zymogenic
 zymolysis
 zymolytic
 zymotic
+Jesus H. Christ
