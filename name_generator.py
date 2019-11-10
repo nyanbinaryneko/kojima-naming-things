@@ -22,11 +22,15 @@ def generate_tweet():
     f"{name} will be an {random.choice(animals)} furry played by {random.choice(friends)}.",
     f"Konami wouldn't let me have a character named {name}. They will be in my next game, I promise.",
     f"I'm trying find a role for {random.choice(friends)} do you think {name} would be a good role for them?",
-    f"📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍"]
+    f"📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍📦 🐍",
+    f"{name} will be the weapon to surpass Metal Gear.",
+    f"I want to work with {random.choice(friends)} again. Think they'd like to be {name} in my next game?",
+    f"I am 70% movies."]
 
     sentence = random.choice(sentences)
-    if f"📦 🐍" in sentence:
-        print("BOX MODE!!!!!!!!")
+    if "📦 🐍" in sentence:
+        print("BOX MODE!!!!!!!!!!!!!!!")
+
     return sentence
 
 def open_file(file):
